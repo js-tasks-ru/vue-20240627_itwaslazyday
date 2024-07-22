@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Lemon Tuesday';
+	src: url('./fonts/lemon_tuesday.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/lemon_tuesday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/lemon_tuesday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/lemon_tuesday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/lemon_tuesday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/lemon_tuesday.svg#lemon_tuesday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+  font-family: 'Lemon Tuesday';
+}
+
+#app > div {
+  font-size: 48px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
