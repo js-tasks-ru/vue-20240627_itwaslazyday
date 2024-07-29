@@ -104,14 +104,6 @@ type WeatherData = {
   } | null
 }
 
-// Шир
-// Эриадор
-//
-// Гондор
-// Рохан
-//
-// Мордор
-
 export function getWeatherData(): WeatherData[] {
   return [
     {
@@ -141,7 +133,7 @@ export function getWeatherData(): WeatherData[] {
         sunrise: '06:53',
         sunset: '19:06',
         temp: 280.15,
-        pressure: 1012,
+        pressure: 1012.5,
         humidity: 90,
         clouds: 60,
         visibility: 1000,
